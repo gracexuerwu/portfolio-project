@@ -1,0 +1,31 @@
+h1 {
+  color: red;
+  font-family: sportingGrotesque;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: laorbrige;
+  src: url(../fonts/laobrige.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: monospaceTypewriter;
+  src: url(../fonts/MonospaceTypewriter.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: smiley;
+  src: url(../fonts/smiley.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: sportingGrotesque;
+  src: url(../fonts/SportingGrotesque-Regular.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: sportingGrotesque;
+  src: url(../fonts/SportingGrotesque-Bold.otf);
+  font-weight: bold;
+}
