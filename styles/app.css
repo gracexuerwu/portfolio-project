@@ -51,6 +51,7 @@
 }
 .hero h1 {
   font-family: var(--heading-font-family);
+  font-size: 45px;
 }
 .hero p {
   font-family: var(--heading-font-family);
@@ -87,9 +88,12 @@
 .project-page h4 {
   font-family: var(--heading-font-family);
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.5);
 }
 .project-page p {
   font-size: 18px;
   font-family: var(--heading-font-family);
+  line-height: 30px;
+}
+.row {
+  padding-bottom: 75px;
 }
