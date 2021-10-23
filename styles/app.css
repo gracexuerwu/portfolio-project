@@ -47,11 +47,49 @@
   justify-content: center;
   align-items: start;
   height: 100vh;
-  padding: 0 40px 0 40px;
+  padding: 0 60px 0 60px;
 }
 .hero h1 {
   font-family: var(--heading-font-family);
 }
 .hero p {
+  font-family: var(--heading-font-family);
+}
+.second-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 60px 0 60px;
+}
+.portfolio-type {
+  font-family: var(--heading-font-family);
+}
+.portfolio-type h2 {
+  line-height: 65px;
+  font-size: 38px;
+}
+.project-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 60px 0 60px;
+}
+.project-page h2 {
+  font-size: 35px;
+  font-family: var(--heading-font-family);
+}
+.project-page h3 {
+  font-family: var(--heading-font-family);
+  font-size: 28px;
+}
+.project-page h4 {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.project-page p {
+  font-size: 18px;
   font-family: var(--heading-font-family);
 }
