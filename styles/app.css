@@ -286,6 +286,16 @@ footer .signature {
   font-size: 14px;
   color: rgb(117, 117, 117);
 }
+footer .open-source-link {
+  text-decoration: none;
+  margin: 0 4px;
+  color: rgb(117, 117, 117);
+  transition: all 150ms ease-in-out;
+}
+footer .open-source-link:hover {
+  color: #527587;
+  text-decoration: underline;
+}
 /* <--about-section--> */
 .about-section {
   display: flex;
