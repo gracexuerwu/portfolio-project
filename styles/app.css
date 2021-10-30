@@ -92,11 +92,20 @@ body {
   text-decoration: none;
   color: black;
   font-size: 38px;
+
+  background: linear-gradient(to bottom, #ff9800 0%, #ff9800 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size 0.2s;
 }
 .second-page .portfolio-link:hover {
-  transform: translateY(-10px);
+  /* transform: translateY(-10px);
   transition: transform 250ms cubic-bezier(0.1, 0.2, 0.3, 0.4);
-  text-decoration: underline;
+  text-decoration: underline; */
+  background-size: 4px 50px;
 }
 .portfolio-type {
   font-family: var(--heading-font-family);
@@ -245,6 +254,7 @@ footer .say-hi {
   font-family: var(--heading-font-family);
   font-size: 15px;
 }
+
 footer .social-links {
   text-align: center;
   font-size: 15px;
@@ -252,17 +262,27 @@ footer .social-links {
 }
 footer .social-link-indiv {
   text-decoration: none;
-  color: black;
+  color: rgb(115, 115, 115);
   margin: 0 15px;
   font-family: var(--heading-font-family);
+  transition: all 150ms ease-in-out;
 }
 footer .social-link-indiv:hover {
-  color: lightslategray;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to bottom, transparent 50%, #57abf2 50%);
+}
+footer .social-links img {
+  opacity: 70%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links img:hover {
+  opacity: 100%;
 }
 
 footer .signature {
   font-family: var(--heading-font-family);
-  font-size: 15px;
+  font-size: 12px;
+  color: rgb(48, 48, 48);
 }
 /* <--about-section--> */
 .about-section {
@@ -273,9 +293,9 @@ footer .signature {
   height: 100vh;
   padding: 0 60px 0 60px;
 }
-/* .about-section-content {
-  margin: 30px;
-} */
+.about-section-content {
+  margin-right: 38px;
+}
 .about-section h1 {
   font-family: var(--heading-font-family);
   font-size: 20px;
@@ -288,6 +308,17 @@ footer .signature {
 }
 .about-section .about-section-row {
   padding-top: 100px;
+}
+.about-section-content .cv-link {
+  font-family: var(--secondary-font-family);
+  text-decoration: none;
+  color: rgb(74, 100, 159);
+  transition: all 150ms ease-in-out;
+  font-weight: bold;
+  font-size: 15px;
+}
+.about-section-content .cv-link:hover {
+  color: rgb(0, 61, 203);
 }
 
 /* <--mediaQueries--> */
