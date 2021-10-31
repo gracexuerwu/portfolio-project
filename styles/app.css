@@ -65,7 +65,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  height: 100vh;
+  min-height: 100vh;
   padding: 0 60px 0 60px;
 }
 .hero h1 {
@@ -82,7 +82,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   padding: 0 60px 0 60px;
 }
 .second-page .portfolio-link {
@@ -302,7 +302,7 @@ footer .open-source-link:hover {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  height: 100vh;
+  min-height: 100vh;
   padding: 0 60px 0 60px;
 }
 .about-section-content {
@@ -489,7 +489,7 @@ footer .open-source-link:hover {
   }
   .about-section {
     padding: 100px 30px 0 30px;
-    min-height: 30vh;
+    min-height: 100vh;
     justify-content: start;
   }
   .about-section .about-section-row {
