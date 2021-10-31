@@ -285,10 +285,10 @@ footer .signature {
   font-family: "Sen", sans-serif;
   font-size: 14px;
   color: rgb(117, 117, 117);
+  text-align: center;
 }
 footer .open-source-link {
   text-decoration: none;
-  margin: 0 4px;
   color: rgb(117, 117, 117);
   transition: all 150ms ease-in-out;
 }

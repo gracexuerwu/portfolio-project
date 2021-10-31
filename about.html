@@ -33,35 +33,47 @@
     <link rel="stylesheet" href="styles/app.css" />
   </head>
   <body>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand navbar-font" href="/" title="Homepage"
-          >Grace Wu <span class="laobrige-font">4</span></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a
-              class="nav-link navbar-font"
-              aria-current="page"
-              href="/" title="Projects"
-              >Projects</a
-            >
-            <a class="nav-link active navbar-font" href="/about.html" title="About">About</a>
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light"
+        style="background-color: #e7e6e3"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand navbar-font" href="/" title="Homepage"
+            >Grace Wu <span class="laobrige-font">4</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link active navbar-font mx-2"
+                aria-current="page"
+                href="/"
+                title="Projects"
+                >Projects</a
+              >
+              <a
+                class="nav-link navbar-font mx-2"
+                href="/about.html"
+                title="About"
+                >About</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     <div class="about-section container">
       <div class="row about-section-row flex-column-reverse flex-sm-row">
         <div class="col-md-8">
@@ -108,15 +120,16 @@
             </div>
           </a>
         </div>
-        <span class="d-flex justify-content-center signature">
-          ©2021 Grace Wu This website was built by Grace Wu and  <a
+        <div class="signature text-center">
+          ©2021 Grace Wu This website was built by Grace Wu and
+          <a
             href="https://github.com/gracexuerwu/portfolio-project"
             target="_blank"
             class="open-source-link"
             >open-sourced</a
-          > on
-          Github
-        </span>
+          >
+          on Github
+        </div>
       </div>
     </footer>
 </body>
