@@ -59,9 +59,17 @@ body {
 .container-fluid {
   padding: 0 35px 0 35px;
 }
-nav .nav-link .active {
-  color: red !important;
+.active {
+  background: linear-gradient(
+    to bottom,
+    transparent 90%,
+    rgb(205, 214, 70) 30%
+  ) !important;
 }
+.nav-link {
+  padding-bottom: 2px !important;
+}
+
 /* <--hero--> */
 .hero {
   display: flex;
